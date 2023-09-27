@@ -50,6 +50,20 @@ function Projects() {
           </Col>
 
 
+
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={netflixApp}
+              isBlog={false}
+              title="The Woods Mobile App - React Native"
+              description="I've successfully crafted a feature-rich eCommerce mobile application using the power of React Native. This project encompasses all the essential components of a modern online shopping experience, with functionalities like product listings,  shopping cart management. By leveraging my expertise in React Native and my passion for user-friendly mobile solutions, I've demonstrated my capabilities in creating seamless, cross-platform mobile apps."
+              ghLink="https://github.com/valenciatv001/Expo-spotify"
+              demoLink="https://expo-spotify.vercel.app"
+            />
+          </Col>
+
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={threads}
@@ -58,6 +72,31 @@ function Projects() {
               description="I am proud to present my latest project, a fully-functional threads clone, which I have developed from the ground up to demonstrate my proficiency in web development and software engineering."
               ghLink="https://github.com/valenciatv001/threads_app"
               demoLink="https://threads-app-ebon.vercel.app"
+            />
+          </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={threads}
+              isBlog={false}
+              title="Google Webpage"
+              description=" I designed and built a Google Clone Web Application using cutting-edge technologies including TypeScript, JavaScript, Node.js, and React. This project replicates the core functionality of Google's search engine, showcasing my expertise in full-stack development and frontend design. It includes features like real-time search, responsive design, and a user-friendly interface."
+              ghLink="https://github.com/Valenciatv001/Google"
+              demoLink="https://google-stack.vercel.app"
+            />
+          </Col>
+
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={threads}
+              isBlog={false}
+              title="YouTube Fullstack Clone Web Application"
+              description="I successfully developed a comprehensive YouTube Fullstack Clone Web Application. Leveraging my expertise in technologies such as JavaScript, Node.js, and React, this project replicates the core features of the popular video-sharing platform, YouTube. It includes functionalities like user authentication, video uploading, comments, likes, and a responsive design. This accomplishment highlights my proficiency in full-stack development and demonstrates my ability to create complex web applications."
+              ghLink="https://github.com/Valenciatv001/YouTube-webapp"
+              demoLink="https://youtube-webapp-clone.vercel.app/"
             />
           </Col>
 
