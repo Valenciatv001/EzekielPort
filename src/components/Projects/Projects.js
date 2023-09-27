@@ -11,6 +11,9 @@ import netflix from "../../Assets/Projects/netflix.png";
 import netflixApp from "../../Assets/Projects/netflix-app.jpg";
 import spotifyApp from "../../Assets/Projects/spotify-app.png"
 import threads from "../../Assets/Projects/threads.png"
+import thewood from "../../Assets/Projects/productsList.png"
+import youtube from "../../Assets/Projects/youtube.png"
+import google from "../../Assets/Projects/google.png"
 
 
 function Projects() {
@@ -54,12 +57,12 @@ function Projects() {
           
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={netflixApp}
+              imgPath={thewood}
               isBlog={false}
               title="The Woods Mobile App - React Native"
               description="I've successfully crafted a feature-rich eCommerce mobile application using the power of React Native. This project encompasses all the essential components of a modern online shopping experience, with functionalities like product listings,  shopping cart management. By leveraging my expertise in React Native and my passion for user-friendly mobile solutions, I've demonstrated my capabilities in creating seamless, cross-platform mobile apps."
-              ghLink="https://github.com/valenciatv001/Expo-spotify"
-              demoLink="https://expo-spotify.vercel.app"
+              ghLink="https://github.com/Valenciatv001/the-woods"
+              // demoLink="https://expo-spotify.vercel.app"
             />
           </Col>
 
@@ -78,7 +81,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={threads}
+              imgPath={google}
               isBlog={false}
               title="Google Webpage"
               description=" I designed and built a Google Clone Web Application using cutting-edge technologies including TypeScript, JavaScript, Node.js, and React. This project replicates the core functionality of Google's search engine, showcasing my expertise in full-stack development and frontend design. It includes features like real-time search, responsive design, and a user-friendly interface."
@@ -91,7 +94,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={threads}
+              imgPath={youtube}
               isBlog={false}
               title="YouTube Fullstack Clone Web Application"
               description="I successfully developed a comprehensive YouTube Fullstack Clone Web Application. Leveraging my expertise in technologies such as JavaScript, Node.js, and React, this project replicates the core features of the popular video-sharing platform, YouTube. It includes functionalities like user authentication, video uploading, comments, likes, and a responsive design. This accomplishment highlights my proficiency in full-stack development and demonstrates my ability to create complex web applications."
