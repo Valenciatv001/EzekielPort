@@ -2,6 +2,8 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   DiJavascript1,
+  DiJavascript,
+  DiVisualstudio,
   DiReact,
   DiNodejs,
   DiMongodb,
@@ -55,6 +57,12 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiExtjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJavascript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiVisualstudio />
       </Col>
     </Row>
   );
