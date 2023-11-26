@@ -17,6 +17,9 @@ import {
   SiFirebase,
   SiNextdotjs,
   SiPostgresql,
+  SiAndroidstudio,
+  SiCanva,
+  SiMicrosoftoffice
 } from "react-icons/si";
 
 function Techstack() {
@@ -36,6 +39,15 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMicrosoftoffice />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCanva />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAndroidstudio />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
