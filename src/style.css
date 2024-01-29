@@ -741,3 +741,8 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+
+h1 {
+  color:rgb(250, 250, 250)
+}

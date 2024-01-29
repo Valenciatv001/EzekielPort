@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Experience from "./Experience";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import brookie from "../../Assets/Projects/brokie.png";
@@ -18,9 +19,11 @@ import google from "../../Assets/Projects/google.png"
 
 function Projects() {
   return (
+
     <Container fluid className="project-section">
       <Particle />
       <Container>
+      <Experience />
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
