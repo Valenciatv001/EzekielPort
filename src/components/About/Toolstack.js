@@ -8,12 +8,11 @@ import {
   SiMacos,
   SiWindows,
   SiNetlify,
-  SiGithub
+  SiGithub,
 } from "react-icons/si";
 
 import { FaAws } from "react-icons/fa"; // Assuming FaAws is used for AWS
 import { AiOutlineThunderbolt } from "react-icons/ai"; // For ThunderClient
-import { FaRegFileCode } from "react-icons/fa"; // Assuming FaRegFileCode is used for Render
 
 function Toolstack() {
   return (
@@ -29,9 +28,6 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <AiOutlineThunderbolt />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMaFaRegFileCodecos />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiWindows />

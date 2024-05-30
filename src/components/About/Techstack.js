@@ -15,31 +15,23 @@ import {
 } from "react-icons/di";
 import {
   SiFirebase,
-  SiNextdotjs,
   SiPostgresql,
   SiAndroidstudio,
   SiCanva,
   SiMicrosoftoffice,
-  SiNextDotJs, 
-  SiTypescript, 
-  SiReact 
+  SiTypescript,
+  SiReact,
 } from "react-icons/si";
 
-import { FaReact } from "react-icons/fa"; 
-import { IoLogoTailwind } from "react-icons/io5"; 
+import { FaReact } from "react-icons/fa";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextDotJs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <FaReact />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <IoLogoTailwind />
-      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <SiTypescript />
       </Col>
@@ -57,9 +49,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMicrosoftoffice />
