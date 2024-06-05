@@ -41,7 +41,7 @@ const experienceData = [
     role: "React Native Developer",
     duration: "Oct 2023 - Dec 2023",
     description: [
-      " Actively involved as a React Native Consultant at Neru Lending, playing a pivotal role in the advancement and refinement of the company's mobile applications through the proficient utilization of React Native..",
+      "Actively involved as a React Native Consultant at Neru Lending, playing a pivotal role in the advancement and refinement of the company's mobile applications through the proficient utilization of React Native..",
     ],
     linkedin: "https://www.linkedin.com/in/agwuezekiel/details/experience/",
   },

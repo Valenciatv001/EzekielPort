@@ -10,20 +10,18 @@ import natour from "../../Assets/Projects/natour.png";
 import trillo from "../../Assets/Projects/trillo.png";
 import netflix from "../../Assets/Projects/netflix.png";
 import netflixApp from "../../Assets/Projects/netflix-app.jpg";
-import spotifyApp from "../../Assets/Projects/spotify-app.png"
-import threads from "../../Assets/Projects/threads.png"
-import thewood from "../../Assets/Projects/productsList.png"
-import youtube from "../../Assets/Projects/youtube.png"
-import google from "../../Assets/Projects/google.png"
-
+import spotifyApp from "../../Assets/Projects/spotify-app.png";
+import threads from "../../Assets/Projects/threads.png";
+import thewood from "../../Assets/Projects/productsList.png";
+import youtube from "../../Assets/Projects/youtube.png";
+import google from "../../Assets/Projects/google.png";
 
 function Projects() {
   return (
-
     <Container fluid className="project-section">
       <Particle />
       <Container>
-      <Experience />
+        <Experience />
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
@@ -31,8 +29,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={spotifyApp}
               isBlog={false}
@@ -42,7 +39,6 @@ function Projects() {
               demoLink="https://expo-netflix.vercel.app"
             />
           </Col>
-
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -55,9 +51,6 @@ function Projects() {
             />
           </Col>
 
-
-
-          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={thewood}
@@ -68,7 +61,6 @@ function Projects() {
               // demoLink="https://expo-spotify.vercel.app"
             />
           </Col>
-
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -81,7 +73,6 @@ function Projects() {
             />
           </Col>
 
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={google}
@@ -93,8 +84,6 @@ function Projects() {
             />
           </Col>
 
-
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={youtube}
@@ -105,7 +94,6 @@ function Projects() {
               demoLink="https://youtube-webapp-clone.vercel.app/"
             />
           </Col>
-
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -125,7 +113,7 @@ function Projects() {
               title="netflix"
               description="Experience a seamless, intuitive, and personalized on-demand streaming platform with our feature-rich Netflix clone, offering high-quality content and a curated library for an engaging and binge-worthy entertainment experience."
               ghLink="https://github.com/Valenciatv001/Netflix-Clone"
-              demoLink="https://netflix-clone-design.netlify.app/"    
+              demoLink="https://netflix-clone-design.netlify.app/"
             />
           </Col>
 
@@ -158,7 +146,6 @@ function Projects() {
               ghLink="https://github.com/Valenciatv001/Nexter"
             />
           </Col>
-
 
           <Col md={4} className="project-card">
             <ProjectCard
