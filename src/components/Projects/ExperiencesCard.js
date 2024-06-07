@@ -15,7 +15,7 @@ function ExperiencesCard(props) {
         </Card.Text>
         <Button variant="primary" href={props.linkedIn} target="_blank">
           <BsLink /> &nbsp;
-          {"LinkedIn"}
+          {props.isBlog ? "Blog" : "LinkedIn"}
         </Button>
         {"\n"}
         {"\n"}
