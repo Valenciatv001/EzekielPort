@@ -9,7 +9,10 @@ import {
   SiWindows,
   SiNetlify,
   SiGithub,
+  SiAndroidstudio,
+  SiXcode,
 } from "react-icons/si";
+import { DiAndroid, DiAppstore, DiVisualstudio } from "react-icons/di";
 
 import { FaAws } from "react-icons/fa"; // Assuming FaAws is used for AWS
 import { AiOutlineThunderbolt } from "react-icons/ai"; // For ThunderClient
@@ -17,6 +20,21 @@ import { AiOutlineThunderbolt } from "react-icons/ai"; // For ThunderClient
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiVisualstudio />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAndroidstudio />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiXcode />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiAndroid />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiAppstore />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMacos />
       </Col>

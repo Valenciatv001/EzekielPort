@@ -18,7 +18,8 @@ function AboutCard() {
             <br />
             {/* Additionally, I am currently employed as a software developer at
             Sidebrief. */}
-            Additionally, I am professional React Native Developer
+            Additionally, I am professional{" "}
+            <b className="purple">React Native Developer</b>
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

@@ -3,8 +3,6 @@ import { Col, Row } from "react-bootstrap";
 import {
   DiJavascript1,
   DiJavascript,
-  DiVisualstudio,
-  DiReact,
   DiNodejs,
   DiMongodb,
   DiPython,
@@ -16,11 +14,10 @@ import {
 import {
   SiFirebase,
   SiPostgresql,
-  SiAndroidstudio,
   SiCanva,
   SiMicrosoftoffice,
   SiTypescript,
-  SiReact,
+  SiReactrouter,
 } from "react-icons/si";
 
 import { FaReact } from "react-icons/fa";
@@ -38,15 +35,11 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiReact />
-      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
@@ -56,9 +49,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiCanva />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAndroidstudio />
-      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
@@ -84,7 +75,7 @@ function Techstack() {
         <DiJavascript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiVisualstudio />
+        <SiReactrouter />
       </Col>
     </Row>
   );
